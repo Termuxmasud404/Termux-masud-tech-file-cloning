@@ -397,7 +397,7 @@ logo = ("""\033[1;32m
 ╭──────────────────────── \033[93mINFO SCRIPT\033[1;32m ─────────────────────────╮
 │ \033[93m╭──────────────────────────────────────────────────────────╮ \033[1;32m│
 │ \033[93m│\033[1;32m  ╔═╦═╗────╔══╗────╔══╗
-                       ║║║║║╔══╗║══╣╔══╗╚╗╗║ \x1b[1;96mGithub  \x1b[1;97m : \x1b[1;96msd   \033[93m│ \033[1;32m│
+║║║║║╔══╗║══╣╔══╗╚╗╗║ \x1b[1;96mGithub  \x1b[1;97m : \x1b[1;96msd   \033[93m│ \033[1;32m│
 │ \033[93m│\033[1;32m  ║║║║║╚══╝╠══║╚══╝╔╩╝║  \x1b[1;96mWhatsapp \x1b[1;97m: \x1b[1;96m013********\033[93m│ \033[1;32m│
 │ \033[93m│\033[1;32m  ╚╩═╩╝────╚══╝────╚══╝       \x1b[1;96mFacebook \x1b[1;97m: \x1b[1;96mM-S-D \033[93m │\033[1;32m │
 │ \033[93m╰──────────────────────────────────────────────────────────╯ \033[1;32m│
@@ -433,7 +433,7 @@ class Main:
 			time.sleep(3.0)
 			print("\033[1;37m    𝗖𝗛𝗘𝗖𝗞𝗜𝗡𝗚 𝗔𝗣𝗣𝗥𝗢𝗩𝗔𝗟 ")
 			print("")
-			input("\n\033[1;37m TYᑭᗴ Tᕼᗴ Oᗯᑎᗴᖇ ᖴᗩᑕᗴᗷOOK ᗩᑕᑕOᑌᑎT ᑎᗩᗰᗴ \033[1;37m")
+			input("\n\033[1;37m TYPE THE OWNER GMAIL ACCOUNT NAME \033[1;37m")
 			time.sleep(3.1)
 			print("")
 			print("\033[1;32m ᗯᗴᒪᑕOᗰᗴ TO ••M-S-D•• ᗷᖇᗩᑎᗪ TOOᒪՏ")
@@ -495,16 +495,16 @@ class Main:
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n\033[1;32m [!] USE (123456) (1234567) (12345678) FOR IDZ\033[1;37m ")
+				print("\n\033[1;32m [!] USE best(123456)👈 (1234567) (12345678) FOR IDZ\033[1;37m ")
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s [!] PASSWORD MINIMUM 6 CHARACTERS"%(B))
 				print("%s [*] CRACK WITH PASSWORD -> [\033[0;91m%s\033[0;93m]"%(G,listpass))
 				os.system("clear")
 				print(logo)
-				print("\n%s \x1b[1;97m[H] HASIL OK TERSIMPAN DI : OK.txt"%(Y))
-				print("%s \x1b[1;97m[H] HASIL CP TERSIMPAN DI : CP.txt"%(G))
-				print("%s \x1b[1;97m[O] ON/OFF MODE PESAWAT JIKA TIDAK ADA HASIL\x1b[0m\n"%(P))
+				print("\n%s \x1b[1;97m[H] M-S-D OK TERSIMPAN DI : OK.txt"%(Y))
+				print("%s \x1b[1;97m[H] M-S-D CP TERSIMPAN DI : CP.txt"%(G))
+				print("%s \x1b[1;97m[O] ON/OFF MODE PESAWAT JIKA TIDAK ADA M-S-D\x1b[0m\n"%(P))
 				for user in self.id:
 					coeg.submit(self.api, user, listpass.split(","))
 			exit("\n\n [>>] CRACK COMPLETE...")
@@ -922,7 +922,7 @@ class Main:
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n\033[1;32m [!] USE (123456) (1234567) (12345678) FOR IDZ\033[1;37m ")
+				print("\n\033[1;32m [!] USE best(123456)👈 (1234567) (12345678) FOR IDZ\033[1;37m ")
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s [!] PASSWORD MINIMUM 6 CHARACTERS"%(B))
